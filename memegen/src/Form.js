@@ -38,7 +38,7 @@ export default function Form(){
         .then(res => res.json())
         .then(data=> setallMemeImages(data.data.memes))
     }, [])
-
+//nothing important
    return(
         <main className="main-form">
             <div className="form">
