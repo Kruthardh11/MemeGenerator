@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+}
+.headerdiv{
+    display: flex;
+    align-items: center;
+    background-color: black;
+    color: white;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 100px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.headerpic{
+    position: relative;
+    width: 250px;
+}
+.headerName{
+    margin-left: 30px;
+    margin-right: 500px;
+}
+.main-form{
+    padding: 100px;
+    padding-top: 0;
+}
+.form{
+    display: grid;
+    grid-template: 40px 40px/ 1fr 1fr;
+    gap: 20px;
+}
+.form-btn{
+    grid-column: 1/-1;
+    width: 400px;
+    margin-left: 450px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    box-shadow: 2px 2px rgb(248, 239, 63);
+    background-color: black;
+    color: white;
+}
+.form-btn:hover{
+    background-color: rgb(167, 41, 225);
+    cursor: pointer;
+}
+.meme-image{
+    width: 700px;
+    height: 450px;
+    padding-left: 150px;
+}
+.box{
+    height: 100px;
+    width: 100px;
+    border: 1px solid black;
+}
+.meme-top-text{
+    position:absolute;
+    margin-left: 200px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+
+}
+.meme-bottom-text{
+    position: absolute;
+    margin-left: 200px;
+    margin-top: 400px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+}
+.font-color-btn{
+    grid-column: 1/-1;
+    width: 400px;
+    margin-left: 450px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    box-shadow: 2px 2px rgb(248, 239, 63);
+    background-color: black;
+    color: white;
+}
+.font-color-btn:hover{
+    background-color: rgb(167, 41, 225);
+    cursor: pointer;
+}

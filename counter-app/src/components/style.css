@@ -1,0 +1,35 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    box-sizing: border-box;
+    margin: 0;
+}
+nav{
+    display: flex;
+    align-items: center;
+    background-color: rgb(37, 32, 32);
+    border: none;
+    
+}
+.navone{
+    padding: 20px;
+    color: blue;
+}
+.hthree{
+    padding-left: 600px;
+}
+
+.main{
+    background-color: chartreuse;
+    padding: 25px;
+    display: flex;
+    font-family:'Times New Roman', Times, serif;
+}
+.profilediv{
+    display: flex;
+    padding: 25px;
+}
+.profilesubdiv{
+    padding: 30px;
+}
