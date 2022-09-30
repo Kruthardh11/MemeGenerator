@@ -1,0 +1,14 @@
+*{
+    margin: 0;
+}
+.navbar{
+    display: flex;
+    padding-left: 680px;
+    padding-top: 35px;
+    padding-bottom: 35px;
+    background: rgb(116,4,167);
+    background: linear-gradient(NaNdeg, rgba(116,4,167,1) 1%, rgba(213,29,198,1) 51%, rgba(54,1,171,1) 100%);
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
